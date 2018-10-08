@@ -41,12 +41,12 @@ import java.util.Set;
 public class Hexdump extends AbstractProcessor {
 
     public static final Relationship REL_SUCCESS = new Relationship.Builder()
-            .name("SUCCESS")
+            .name("success")
             .description("Success")
             .build();
 
     public static final Relationship REL_FAILURE = new Relationship.Builder()
-            .name("FAILURE")
+            .name("failure")
             .description("Failure")
             .build();
 
